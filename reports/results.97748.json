@@ -1,0 +1,96 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login test",
+    "line": 1,
+    "id": "login-test",
+    "tags": [],
+    "uri": "features/spec.feature",
+    "elements": [
+      {
+        "id": "login-test;enter-credentials-and-login",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Enter credentials and login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "specs/spec.spec.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I visit \"https://beta-loanpro.simnang.com/client/app/login.html?\"",
+            "match": {
+              "location": "specs/spec.spec.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I enter my credentials: username \"loanproqaautomatedapitesting+atestpractice@gmail.com\" and password \"%Wd5u50Q1?121\"",
+            "match": {
+              "location": "specs/spec.spec.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I click the login button",
+            "match": {
+              "location": "specs/spec.spec.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the home screen is displayed",
+            "match": {
+              "location": "specs/spec.spec.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
