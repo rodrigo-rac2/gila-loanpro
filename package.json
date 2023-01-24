@@ -1,0 +1,35 @@
+{
+  "name": "gila-loanpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-rac2/gila-loanpro.git"
+  },
+  "keywords": [
+    "protractor",
+    "cucumber",
+    "page object model"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigo-rac2/gila-loanpro/issues"
+  },
+  "homepage": "https://github.com/rodrigo-rac2/gila-loanpro#readme",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "selenium-webdriver": "^4.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^6.0.7",
+    "cucumber-pretty": "^6.0.1",
+    "protractor-cucumber-framework": "^9.0.0"
+  }
+}
