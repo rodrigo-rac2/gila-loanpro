@@ -1,4 +1,4 @@
-const {By} = require("protractor");
+const {By, element} = require("protractor");
 let nameInput,
     passwordInput,
     loginButton;
@@ -20,16 +20,13 @@ module.exports = {
     clickLoginButton: () => {
         return loginButton.click();
     },
-    setUserName: (username) => {
-        return nameInput.sendKeys(username);
+    isUsernameInputPresent: () => {
+        return nameInput.isPresent();
     },
-    getUserNameText: () => {
-        return nameInput.getText();
+    isPasswordInputPresent: () => {
+        return passwordInput.isPresent();
     },
-    setPassword: (password) => {
-        return passwordInput.sendKeys(password);
+    isLoginButtonPresent: () => {
+        return loginButton.isPresent();
     },
-    getPasswordText: () => {
-        return passwordInput.getText();
-    }
 }
